@@ -21,12 +21,12 @@ cd ~/.config/picom
 
 ## 注意
 
-- 在`i3`的配置文件中加入一下命令：    
+- 在`i3`的配置文件中加入以下命令：    
 
 ```bash
 exec_always --no-startup-id picom -b
 ```
-- 在`dwm`的`autostart.sh`配置文件中加入一下命令：    
+- 在`dwm`的`autostart.sh`配置文件中加入以下命令：    
 
 ```bash
 picom -CGb &
