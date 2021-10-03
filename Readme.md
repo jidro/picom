@@ -1,27 +1,33 @@
 # `Picom` 配置文件    
-安装`picom`    
+## 安装`picom`    
+
 ```bash
 sudo pacman -S picom # Arch及Arch衍生版本用户
 sudo apt-get install picom # Debian及Debian衍生版本用户
 ……
 ```
-创建配置文件    
+## 创建配置文件    
 在`.config`文件夹下创建`picom`文件夹    
 
 ```shell
 mkdir ~/.config/picom
 ```
-创建配置文件    
-```shell
+```bash
 cd ~/.config/picom
 ```
-将`picom.conf`复制（`mv`或`cp`）到`~/.config/picom`        
-在`i3`的配置文件中加入一下命令：    
+将`picom.conf`移动或复制（`mv`或`cp`）到`~/.config/picom`        
+
+-----
+
+## 注意
+
+- 在`i3`的配置文件中加入一下命令：    
 
 ```bash
 exec_always --no-startup-id picom -b
 ```
-在`dwm`的`autostart.sh`配置文件中加入一下命令：    
+- 在`dwm`的`autostart.sh`配置文件中加入一下命令：    
+
 ```bash
 picom -CGb &
 ```
