@@ -1,7 +1,6 @@
 #!/bin/env bash
 # Create a. Config folder and a Picom folder.
-mkdir ~/.config
-mkdir ~/.config/picom
+mkdir -p ~/.config/picom
 
 # Copy picom.sample.conf files to picom folder.
 cp picom.sample.conf ~/.config/picom/
