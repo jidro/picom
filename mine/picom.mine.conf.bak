@@ -64,6 +64,14 @@ shadow-ignore-shaped = false
 # shadow-exclude = []
 shadow-exclude = [
   "name    *?= 'Notification'",
+  "name    *?= 'MPV'",
+  "name    *?= 'Telegram'",
+  "name    *?= 'picom'",
+  "name    *?= 'firefox'",
+  "name    *?= 'polybar-main_eDP1'",
+  "name    *?= 'pcmanfm'",
+  "name    *?= 'feeluown'",
+  "name    *?= 'VirtualBox Machine'",
   "class_g *?= 'Conky'",
   "class_g *?= 'Notify-osd'",
   "class_g *?= 'Cairo-clock'",
@@ -175,16 +183,20 @@ opacity-rule = [
   "90:name    *?= 'Panel'",
   "95:name    *?= 'Code'",
   "99:name    *?= 'Restart'",
+  "80:class_g *?= 'URxvt'",
+  "80:class_g *?= 'rofi'",
+  "80:class_g *?= 'Alacritty'",
+  "90:class_g *?= 'Tilda'",
   "90:class_g *?= 'Code - Insiders'",
   "90:class_g *?= 'Conky'",
   "90:class_g *?= 'Notify-osd'",
   "90:class_g *?= 'Cairo-clock'",
   "90:class_g *?= 'Dmenu'",
+  "95:class_g *?= 'dunst'",
   "95:class_g *?= 'st' && !_NET_WM_STATE@:32a",
   "0:_NET_WM_STATE@:32a *= '_NET_WM_STATE_HIDDEN'",
   "95:_NET_WM_STATE@:32a *= '_NET_WM_STATE_STICKY'"
 ];
-
 
 #################################
 #     Background-Blurring       #
