@@ -38,4 +38,6 @@ picom -CGb &
 
 在每一个文件夹下都会有一个`install.sh`的一键安装脚本以及一个`reduction.sh`的一键恢复脚本，可供一键安装。     
 
-**注意** ：切勿在没有使用`install.sh`一键安装脚本之前使用`reduction.sh`一键恢复脚本，这有可能会使您的`picom`无法正常使用。    
+- **注意：** 
+  
+  切勿在没有使用`install.sh`一键安装脚本之前使用`reduction.sh`一键恢复脚本，这有可能会使您的`picom`无法正常使用。     
